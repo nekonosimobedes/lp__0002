@@ -69,10 +69,11 @@ section
   font-family: "Lexend", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  color: #003A9B;
+  color: #3884FD;
   text-align: center;
   padding-bottom: 10px;
-  border-bottom: 1px solid #003A9B;
+  border-bottom: 1px solid #3884FD;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
   .section__sub-title {
@@ -221,7 +222,25 @@ fv
 }
 @media screen and (max-width: 768px) {
   .fv__text {
-    font-size: 18px;
+    display: none;
+  }
+}
+
+.fv__text-sp {
+  margin-top: 10px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+@media screen and (min-width: 1660px) {
+  .fv__text-sp {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1659px) {
+  .fv__text-sp {
+    display: none;
   }
 }
 
@@ -530,7 +549,7 @@ system
 }
 
 .span2 {
-  color: #003A9B !important;
+  color: #3884FD !important;
 }
 
 /*================================
@@ -638,7 +657,7 @@ reason
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 500;
   font-size: 36px;
-  color: #003A9B;
+  color: #3884FD;
   text-align: left;
 }
 @media screen and (min-width: 769px) and (max-width: 1659px) {
